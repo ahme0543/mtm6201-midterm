@@ -1,0 +1,65 @@
+div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+  }
+
+.logo {
+     position: absolute;
+     right: -63%;
+     width: 850px;
+    
+}
+body {
+    background-color: rgba(87, 116, 116, 0.325);
+}
+.topnav{
+    
+    margin-left: 03%;
+    position: absolute;
+    top: 0.5%;
+}
+.icon-bar {
+    width: 60px; /* Set a specific width */
+    background-color: rgba(6, 61, 61, 0.482); /* Dark-grey background */
+  }
+  
+  .icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: rgb(255, 255, 255); /* White text color */
+    font-size: 25px; /* Increased font-size */
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: #02747489; /* Add an active/current color */
+  }
+
+  
+  nav ul {
+    table-layout : auto;
+    list-style-type : none;
+    padding-left : 0;
+    
+    }
+    nav li {
+    /* margin-left : 30px; */
+    display : inline-block;
+    width : 15%;
+    ;
+    }
+    nav {
+    font-size : x-large;
+    color : black;
+    text-decoration : none;
+    text-align: center;
+    
+    }
+
