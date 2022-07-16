@@ -29,14 +29,14 @@ div {
 .topnav :placeholder-shown {
   position: relative;
   left: 50px;
-  top: 10px;
+  top: -5px;
   width: 230px;
 }
 
 .menu {
   position: relative;
   left: -210px;
-  top: 20px;
+  top: 40px;
 }
   
   
@@ -44,7 +44,7 @@ div {
 
 .fa-solid {
   position: relative;
-  top: -23px;
+  top: -40px;
   left: 260px;
 }
 .icon-bar {
