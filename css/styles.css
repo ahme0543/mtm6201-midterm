@@ -135,6 +135,7 @@ div {
     }
   
     .grid {
+      width: 100%;
       display: grid;
       grid:
         'image-4 image-5 image-6 image-7 image-8';
