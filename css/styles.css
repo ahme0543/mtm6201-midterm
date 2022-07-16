@@ -248,6 +248,31 @@ input[type=submit]:hover {
  
 }
 
+.maps {
+  position: relative;
+  top: 420px;
+  left: 30px;
+}
+
+.maps h2 {
+  position: relative;
+  top: 10px;
+  left: 30px;
+} 
+
+.table {
+  position: relative;
+  top: 100px;
+  left: 630px;
+}
+
+.table h2 {
+  position: relative;
+  top: 10px;
+  left: 30px;
+}
+
+
 .Contact-footer {
   position: relative;
   top: 190px;
