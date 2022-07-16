@@ -351,6 +351,6 @@ input[type=submit]:hover {
   
   @media screen and (min-width: 760px) {
     body {
-      background-color: rgba(58, 113, 120, 0.551);
+      background-color: rgba(127, 242, 255, 0.551);
     }
   }
