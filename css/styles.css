@@ -1,4 +1,44 @@
+html,body {
+  display: float;
+  float: right;
+  justify-items: center;
+  align-content: center;
+  
+  width: 100%;
+  height: 100%;
+ 
+}
 
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+}
+
+.swing {
+  animation-name: swing;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes swing {
+  /* These styles will be applied throughout the animation */
+  0%, 100% { 
+    border-radius: 50%; 
+    transform-origin: 0 -100px; 
+  }
+  
+  0% { 
+    transform: rotate(77deg); 
+  }
+  
+  100% { 
+    transform: rotate(-45deg);
+  }
+}
 
 
 div {
@@ -411,6 +451,8 @@ input[type=submit]:hover {
     transition: 5s;
   }
   
+
+ 
   @media screen and (min-width: 760px) {
     body {
       background-color: rgba(69, 113, 117, 0.551);
