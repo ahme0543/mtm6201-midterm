@@ -277,11 +277,60 @@ input[type=submit]:hover {
   position: relative;
   top: 190px;
   width: 100%;
- border-bottom: 2opx;
+ border-bottom: 20px;
 }
 
 
-  
+/* About page */
+.container-1  {
+   width: 300px;
+    height: 200px;
+    float: left;
+    position: relative;
+    left: 160px;
+    top: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+   padding-left: 20px;
+    background-color: #2a67656a;
+}
+
+.container-1 h2{
+  position: relative;
+  left: 20px;
+  top: 0px;
+}
+
+.container-2  {
+  width: 300px;
+   height: 200px;
+   float: right;
+   position: relative;
+   left: -270px;
+   top: 90px;
+   padding: 10px;
+   padding-bottom: 20px;
+  padding-left: 20px;
+   background-color: #2a67656a;
+}
+
+.container-2 h2{
+ position: relative;
+ left: 20px;
+ top: 0px;
+}
+
+.About-footer {
+  position: relative;
+  top: 190px;
+  width: 100%;
+ border-bottom: 2opx;
+}
+
+.About-footer p{
+  position: relative;
+  left: 40px;
+}
 
   footer div {
     position: relative;
