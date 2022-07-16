@@ -12,9 +12,13 @@ div {
     max-width: 100%;
     
 }
-body {
+ 
+  body {
     background-color: rgba(87, 116, 116, 0.325);
-}
+  }
+
+
+
 .topnav{
     
     margin-left: 03%;
@@ -192,6 +196,7 @@ body {
     font-size: x-large;
     
   }
+
 
   
 
