@@ -12,7 +12,7 @@ html,body {
 .box {
   width: 100px;
   height: 100px;
-  background-color: indianred;
+  background-color: rgba(38, 110, 103, 0.247);
 }
 
 .swing {
